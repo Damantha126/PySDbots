@@ -1,15 +1,15 @@
 <p align="center">
     <a href="https://t.me/SDBOTs_inifinity">
-        <img src="https://telegra.ph/file/9ea8fd64fa13fe8759877.jpg" alt="Pyrogram" width="500">
+        <img src="https://telegra.ph/file/835058034ef2f776b475e.jpg" alt="Pyrogram" width="500">
     </a>
     <br>
     <b>A Project Made To Centralize Various APIs 📖 No Authorization Needed :)</b>
     <br>
-    <a href="https://sdbots.tk">
+    <a href="https://sdbots.tech">
         Homepage
     </a>
     •
-    <a href="https://docs.sdbots.tk">
+    <a href="https://docs.sdbots.tech">
         Documentation
     </a>
     •
@@ -45,5 +45,5 @@ pip3 install pysdbots
 
 ### API Url
 ```
-https://api.sdbots.tk
+https://api.sdbots.tech
 ```

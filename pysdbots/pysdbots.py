@@ -5,61 +5,60 @@ headers={'Content-Type': 'application/json'}
 
 
 def anime_logo(name):
-    API = f"https://api.sdbots.tk/anime-logo?name={name}"
+    API = f"https://api.sdbots.tech/anime-logo?name={name}"
     req = requests.get(API).url
     return(req)
 
 def tiktok(url):
-    API = f"https://api.sdbots.tk/tiktok?url={url}"
+    API = f"https://api.sdbots.tech/tiktok?url={url}"
     req = requests.get(API).json()
     return(req)
 
 def apod():
-    API = "https://api.sdbots.tk/apod"
+    API = "https://api.sdbots.tech/apod"
     req = requests.get(API).json()
     return(req)
 
 def detect_lang(text):
-    req = requests.get(f"https://api.sdbots.tk/detect?text={text}").json()
+    req = requests.get(f"https://api.sdbots.tech/detect?text={text}").json()
     return(req)
 
 def write(text):
     body = {
         "text": f"{text}"
     }
-    url = "https://api.sdbots.tk/write"
+    url = "https://api.sdbots.tech/write"
     req = requests.post(url=url, headers=headers, json=body).url
     return(req)
 
 def chk(cc):
-    API = f"https://api.sdbots.tk/chk?cc={cc}"
+    API = f"https://api.sdbots.tech/chk?cc={cc}"
     req = requests.get(API).json()
     return(req)
 
 def sk_checker(key):
-    req = requests.get(f"https://api.sdbots.tk/sk?key={key}").json()
+    req = requests.get(f"https://api.sdbots.tech/sk?key={key}").json()
     return(req)
 
 def lyrics(song):
-    req = requests.get(f"https://api.sdbots.tk/lyrics?song={song}").json()
+    req = requests.get(f"https://api.sdbots.tech/lyrics?song={song}").json()
     return(req)
 
 def ipinfo(ip):
-    req = requests.get(f"https://api.sdbots.tk/ipinfo?ip={ip}").json()
+    req = requests.get(f"https://api.sdbots.tech/ipinfo?ip={ip}").json()
     return(req)
 
 def hirunews():
-    req = requests.get("https://api.sdbots.tk/hirunews").json()
+    req = requests.get("https://api.sdbots.tech/hirunews").json()
     return(req)
 
 def logohq(text):
-    req = requests.get(f"https://api.sdbots.tk/logohq?text={text}").url
+    req = requests.get(f"https://api.sdbots.tech/logohq?text={text}").url
     return(req)
 
 def fakeinfo():
-    req = requests.get("https://api.sdbots.tk/fakeinfo").json()
+    req = requests.get("https://api.sdbots.tech/fakeinfo").json()
     return(req)
 
 
-a = anime_logo("DamanthaJa")
-print(a)
+print("SD Bots API -> https://docs.sdbots.tech")

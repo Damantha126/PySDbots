@@ -6,7 +6,7 @@ with open("README.md", encoding="utf8") as readme:
 setuptools.setup(
     name="pysdbots",
     packages=setuptools.find_packages(),
-    version="0.1.1",
+    version="2.0",
     license="MIT",
     description="A Project Made To Centralize Various APIs 📖 No Authorization Needed :)",
     long_description=long_description,
@@ -20,7 +20,7 @@ setuptools.setup(
         "Tracker": "https://github.com/damantha126/pysdbots/issues",
         "Community": "https://t.me/SDBOTs_inifinity",
         "Source": "https://github.com/damantha126/pysdbots",
-        "Documentation": "https://docs.sdbots.tk",
+        "Documentation": "https://docs.sdbots.tech",
     },
     classifiers=[
         "Development Status :: 5 - Production/Stable",
