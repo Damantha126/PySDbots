@@ -1,21 +1,22 @@
+# 📕 [Documentation](https://docs.sdbots.tech)
 <p align="center">
     <a href="https://t.me/SDBOTs_inifinity">
-        <img src="https://telegra.ph/file/835058034ef2f776b475e.jpg" alt="Pyrogram" width="500">
+        <img src="https://telegra.ph/file/a040faed9f94a9a7cb289.jpg" alt="sdbots" width="640">
     </a>
     <br>
     <b>A Project Made To Centralize Various APIs 📖 No Authorization Needed :)</b>
     <br>
-    <a href="https://sdbots.tech">
+    <b><a href="https://sdbots.tech">
         Homepage
     </a>
     •
-    <a href="https://docs.sdbots.tech">
+    <a href="https://docs.sdbots.tech/reference/pysdbots">
         Documentation
     </a>
     •
     <a href="https://t.me/SDBOTs_inifinity">
         Channel
-    </a>
+    </a></b>
 </p>
 
 # • Features
@@ -34,16 +35,20 @@
      ➤ For All Platform <br> </b></i>
 
 
-## • Installations
+# • Installations
 
-### Install the library
-The best way to interact with our API is to use one of our official libraries
+Python library for SDAPI, PySDbots requires an Python to be installed in your system. We recommend using the latest versions of both Python 3 and pip.
+
+### Install PySDbots:
+<b><i>• The easiest way to install PySDbots to its latest stable version is by using pip:</i></b>
 
 ``` bash
 pip3 install pysdbots
 ```
 
-### API Url
-```
-https://api.sdbots.tech
+### Upgrade library:
+<b><i>• Upgrade the library to the latest version:</i></b>
+
+``` bash
+pip3 install --upgrade PySDbots
 ```
