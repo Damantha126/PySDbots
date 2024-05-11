@@ -1,8 +1,6 @@
 from .pysdbots import *
 
-__version__ = "2.1"
-
-
+__docs__ = req["DOCS"]
 __all__ = [
     "anime_logo",
     "tiktok",
