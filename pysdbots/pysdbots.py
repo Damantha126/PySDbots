@@ -83,7 +83,7 @@ class SDAPI:
         try:
             if method == "GET":
                 # Send a GET request with the specified URL and headers
-                response = self.client.get(url)
+                response = self.client.get(url, headers=headers)
             elif method == "POST":
                 # Send a POST request with the specified URL, headers, and JSON data
                 response = self.client.post(url=url, headers=headers, json=data)
